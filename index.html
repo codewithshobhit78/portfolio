@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Modern Header</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <!-- Left Logo Section -->
+            <div class="logo-container">
+                <div class="logo-3d"><i class="fa-duotone fa-solid fa-code"></i></div>
+                <h1 class="logo-text">Portfolio*</h1>
+            </div>
+
+            <!-- Right Navigation Section -->
+            <div class="nav-right">
+                <div class="search-container">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" class="search-input" placeholder="Search...">
+                </div>
+
+                <ul class="nav-links">
+                    <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+
+                <!-- Mobile Menu Toggle -->
+                <div class="menu-toggle">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>
+            Shobhit Kumar I'm a
+            <span>
+                <span>DEVELOPER</span>
+                <span>PROGRAMMER</span>
+                <span>FREELANCER</span>
+                <span>YOUTUBER</span>
+            </span>
+        </h2>
+    </div>
+
+    <div class="home-img">
+        <div class="img-box">
+            <div class="img-item">
+                <img src="shobhit 3.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container1">
+        <h1>About Me</h1>
+
+        <div class="typing-text">
+            <p><span id="text1"></span></p>
+            <p><span id="text2"></span></p>
+        </div>
+
+        <div class="code-container">
+            <div class="code-header">
+                <div class="code-dots">
+                    <div class="code-dot"></div>
+                    <div class="code-dot"></div>
+                    <div class="code-dot"></div>
+                </div>
+                <div class="code-title">My Skills</div>
+            </div>
+            <pre><code id="code-display"></code></pre>
+        </div>
+
+        <button class="btn" id="replay-btn">Replay Animation</button>
+        <a href="https://drive.google.com/file/d/113gyBYZVoag36POLbEL3CSwCWJcEBWNA/view?usp=sharing"> <button
+                class="btn2" id="replay-btn">Download CV</button></a>
+    </div>
+
+    <!-- !-- Projects Section -->
+    <section class="section projects" id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-container">
+
+            <!-- project 1 vidoe  -->
+            <div class="video-container">
+                <video width="600" height="350" controls autoplay loop id="myVideo">
+                    <source src="3d json video.mp4" wide="1200" height="400" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <!-- project 2 video  -->
+            <div class="video-container2">
+                <video width="600" height="350" controls autoplay loop id="myVideo">
+                    <source src="dragon video.mp4" wide="1200" height="400" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Your message" required></textarea>
+            </div>
+            <button type="submit" class="btn submit-btn">Send Message</button>
+        </form>
+
+        <!-- <-- emoji and quote new -->
+        <div class="quote-text">
+            "Let's <span class="highlight">create</span>, <span class="highlight">connect</span>,
+            and <span class="highlight">grow</span> together"
+            <div class="emoji-container">
+                <div class="emoji">🚀</div>
+                <div class="emoji">🌐</div>
+            </div>
+        </div>
+
+        <!-- testimonials -->
+        <div class="container">
+            <div class="section-header">
+                <h2> Our team & me</h2>
+                <p>See what our team say about our services and expertise</p>
+            </div>
+            <div class="testimonials">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">
+                        I'm a dedicated software engineer with a passion for coding and problem-solving. He excels in
+                        developing innovative solutions and collaborating with teams to achieve project goals..
+                    </p>
+                    <div class="author-info">
+                        <img src="https://media.licdn.com/dms/image/v2/D5635AQEnMboGzYnb0g/profile-framedphoto-shrink_100_100/B56ZV8Mo2pHsAk-/0/1741545443311?e=1751385600&v=beta&t=M0vQXcr2NSt1BxjY8HZ7lyYiBdW2Kjs2YhZkIZW09mk"
+                            alt="Sarah K." class="author-avatar">
+                        <div>
+                            <div class="author-name">Nilansh Kumar</div>
+                            <div class="author-title">Software Engineer</div>
+                            <div class="rating">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">
+                        A Full Stack developer is a software engineer who specializes in both front-end and back-end and
+                        is
+                        responsible for the entire development process of a web application.
+                    </p>
+                    <div class="author-info">
+                        <img src="https://media.licdn.com/dms/image/v2/D4D35AQEytll5wsp1dg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1732286941392?e=1751443200&v=beta&t=e4NLkqIpP3ud4bq_7kKzZ9jNb-9YwjM7fQqoK3di3sA"
+                            alt="James L." class="author-avatar">
+                        <div>
+                            <div class="author-name">Shobhit Kumar</div>
+                            <div class="author-title">Full Stack Developer</div>
+                            <div class="rating">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">
+                        A railway locomotive pilot operates trains, ensuring safe and efficient travel. They monitor
+                        systems, communicate with dispatchers, and adhere to schedules while prioritizing passenger
+                        safety..
+                    </p>
+                    <div class="author-info">
+                        <img src="https://randomuser.me/api/portraits/men/45.jpg " alt="Maria G." class="author-avatar">
+                        <div>
+                            <div class="author-name">Chirag Dabsay</div>
+                            <div class="author-title">Loko pilate</div>
+                            <div class="rating">★★★★☆</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Footer -->
+    <footer>
+
+        <!-- Joke of the Day button -->
+          <div class="joke-section">
+                <div class="joke-display" id="jokeDisplay">Click the button below for a laugh!</div>
+                <button class="joke-btn" id="jokeBtn">Joke of the Day</button>
+            </div>
+
+            <!-- social-links -->
+        <div class="social-links">
+            <a href="https://github.com/codewithshobhit78"><i class="fab fa-github"></i></a>
+            <a href="https://x.com/Shobhitkumar78"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/uk170955_raider/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/shobhit78/"><i class="fab fa-linkedin"></i></a>
+        </div>
+
+        <p>&copy; 2025 Shobhit Kumar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
